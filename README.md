@@ -24,8 +24,8 @@ In this project, I was curious about the factors that motivate users and people 
 
 ## 3. File Descriptions <a name="files"></a>  
 
-1- notebook file 
-2- Data files:
+1. Notebook file 
+2. Data files:
 - to_read.csv provides IDs of the books marked "to read" by each user, as user_id,book_id pairs, sorted by time. There are close to a million pairs.
 - books.csv has metadata for each book (goodreads IDs, authors, title, average rating, etc.).
 - book_tags.csv contains tags/shelves/genres assigned by users to books. Tags in this file are represented by their IDs. They are sorted by goodreads_book_id ascending and count descending.
